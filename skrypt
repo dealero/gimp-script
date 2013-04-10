@@ -1,0 +1,23 @@
+>> Podaj scieżke  do folderu
+
+ .funkcja obliczajaca ilosc obiektow w folderze.
+    x = ilosc obiektow
+ . utworzenie tablicy z nazwami plikow.
+
+>> Podaj rozmiar (szer. wys.)w cm
+
+  utworzenie projektu o wymiarach szer + a i wys + b
+  utworzenie nowej warstwy
+  wygenerowanie paserów, pasków koloru itd.
+  
+
+for 1 to x do                     // petla pozwalajaca na przeskalowanie i przygotowanie do druku x obrazow
+        utworzenie nowej warstwy
+        wczytanie obrazu x
+        resize x (width to szer + spady)  // zmiana rozmiaru z aktualnego - width do ustawionego - szer + spady
+        wstawienie obrazu we wspolrzedne  // obliczone procentowo lub liczbowo w zaleznosci od wymiarow projektu
+        zapisanie do pliku w folderze /do_druku
+        usuniecie warstwy
+        
+
+    
